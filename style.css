@@ -30,16 +30,7 @@ hr {
 	height: 10rem;
 }
 
-a:link, a:visited {
-  text-decoration: none;
-  color: white;
 
-}
-
-a:hover {
-  text-decoration: underline;
-  color: #F05F44;
-}
 
 .btn{
 	font-weight: 700;
@@ -57,8 +48,14 @@ a:hover {
 }
 
 .btn-primary:hover {
-	background-color: white;
+	background-color: #F05F44;
 	border-color: white;
-	color: #F05F44;
 	border-width: 4px;
 }
+
+a:link, a:visited {
+  text-decoration: none;
+  color: white;
+
+}
+
